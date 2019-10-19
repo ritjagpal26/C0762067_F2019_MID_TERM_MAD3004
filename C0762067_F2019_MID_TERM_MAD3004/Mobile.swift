@@ -24,10 +24,12 @@ class Mobile: Bill {
     override func printData() {
         print(" Mobile Bill Id : \(mobile_Bill_Id)")
         print("Modle of Mobile  : \(mobile_Model_Name)")
-        print("Internet Used    : \(internet_GB_used)")
-        print("Bill Of Mobile : \(bill_Ammount.currency())")
-        print("Minutes used  : \(minute_used)")
         print("Mobile Number \(mobile_number)")
+        print("Internet Used    : \(internet_GB_used.dataused())")
+       
+        print("Minutes used  : \(minute_used)")
+         print("Bill Of Mobile : \(bill_Ammount.currency())")
+      
         
         
     }
