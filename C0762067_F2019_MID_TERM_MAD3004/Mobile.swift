@@ -13,9 +13,12 @@ class Mobile: Bill {
     var mobile_number = Int()
     var  internet_GB_used = Float()
     var minute_used = Float()
-    var mobile_Bill_Ammount = Float()
-    init(mbillid:String,modelname: String, mnumber : Int, igu: Float, mu: Float, mba: Float,bid: Int, bdate: Date, btype:bill_Type) {
+    init(mbillid:String,modelname: String, mnumber : Int, Gbused:Float, mu: Float, bid: Int,bammount: Float, bdate: Date, btype:bill_Type) {
         self.mobile_Bill_Id = mbillid
         self.mobile_Model_Name = modelname
         self.mobile_number = mnumber
+        self.minute_used = mu
+        self.internet_GB_used = Gbused
+        super.init(bid:bid, bdate: bdate, bammount: bammount,  btype: btype)
+    }
 }
