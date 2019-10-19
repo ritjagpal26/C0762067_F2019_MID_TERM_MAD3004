@@ -7,12 +7,25 @@
 //
 
 import Foundation
-class Customer: Bill {
+class Customer:IDisplay {
+   
+    
     var coustomer_Id = String()
     var coustomer_lastNme = String()
     var coustomer_FirtsName = String()
     var coustomer_EmailID = String()
     var  billdict = [String:Bill]()
 
-
+    init(cid: String, lastname : String, firstname : String, email: String, billdict: [String:Bill])
+    {
+        
+        self.coustomer_Id = cid
+        self.coustomer_lastNme = lastname
+        self.coustomer_FirtsName = firstname
+        self.coustomer_EmailID = email
+        self.billdict = billdict
+    }
+    func printData() {
+        <#code#>
+    }
 }
