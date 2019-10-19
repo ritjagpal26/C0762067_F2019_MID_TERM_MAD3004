@@ -17,7 +17,9 @@ class  Bill: IDisplay {
         enum bill_Type {
                     case internet
                     case hydro
-            case mobile}
+                    case mobile
+                    case Insurance
+    }
      var billType : bill_Type
     init(bid: Int, bdate: Date, bammount : Float, btype:bill_Type) {
         self.bill_Id = bid

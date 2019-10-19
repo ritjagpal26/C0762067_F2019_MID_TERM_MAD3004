@@ -13,18 +13,21 @@ class Mobile: Bill {
     var mobile_number = Int()
     var  internet_GB_used = Float()
     var minute_used = Float()
-    init(mbillid:String,modelname: String, mnumber : Int, Gbused:Float, mu: Float, bid: Int,bammount: Float, bdate: Date, btype:bill_Type) {
+    init(mbillid:String,modelname: String, mnumber : Int, Gbused:Float, minutesused: Float, bid: Int,bammount: Float, bdate: Date, btype:bill_Type) {
         self.mobile_Bill_Id = mbillid
         self.mobile_Model_Name = modelname
         self.mobile_number = mnumber
-        self.minute_used = mu
+        self.minute_used = minutesused
         self.internet_GB_used = Gbused
         super.init(bid:bid, bdate: bdate, bammount: bammount,  btype: btype)
     }
     override func printData() {
         print(" Mobile Bill Id : \(mobile_Bill_Id)")
         print("Modle of Mobile  : \(mobile_Model_Name)")
-      
+        print("Internet Used    : \(internet_GB_used)")
+        print("Bill Of Mobile : \(bill_Ammount)")
+        print("Minutes used  : \(minute_used)")
+        print("Mobile Number \(mobile_number)")
         
         
     }
