@@ -14,6 +14,7 @@ class Customer:IDisplay {
     var customer_FirtsName = String()
     var customer_EmailID = String()
     var  billdict = [String:Bill]()
+//    var a = Bool("@Hotmail.com","@gmail.com")
 
     init(cid: String, lastname : String, firstname : String, email: String, billdict: [String:Bill])
     {
@@ -27,5 +28,11 @@ class Customer:IDisplay {
     func printData() {
         print("Customer Id  : \(customer_Id)")
         print("Customer Name  : \(customer_FirtsName) \(customer_lastNme)")
+        print("Customer Email Id : \(customer_EmailID)")
+        for i in billdict.values
+        {
+            printData()
+        }
+        
     }
 }
