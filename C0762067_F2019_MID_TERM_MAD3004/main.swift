@@ -25,6 +25,7 @@ var int2 = Internet(ibillid: "In002", pname: "Fiddo", internetused: 45.2, bid: 2
 var hydro2 = Hydro(hBillId: "Hydro1002", agenceyname: "Energy Provider", hydroconsuption: 563.2, bid: 2, bammount: 256.2, bdate: "03/45/2019", btype: .hydro)
 var customer2 = Customer(cid: "A2", lastname: "Patel", firstname: "Pritesh", email: "priteshpatel@gmail.com", billdict: [int2.internet_Bill_Id:int2,hydro2.hydro_Bill_Id:hydro2])
 
+custDictionary.updateValue(customer1 ,forKey: customer1.customer_Id)
 
 for i in custDictionary.values
 {
