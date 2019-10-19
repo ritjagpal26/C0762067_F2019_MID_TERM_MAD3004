@@ -10,5 +10,7 @@ import Foundation
 class Mobile: Bill {
     var mobile_Bill_Id = String()
     var mobile_Model_Name = String()
-  
+    var mobile_number = Int()
+    var  internet_GB_used = Float()
+    
 }
