@@ -21,5 +21,8 @@ class Hydro : Bill
     }
     override func printData() {
         print("Hydro Bill Id \(hydro_Bill_Id)")
+        print("Name of agency : \(agency_Name)")
+        print("HYDRO Used    : \(consumption)")
+        print("Bill Of Hydro : \(bill_Ammount)")
     }
 }
