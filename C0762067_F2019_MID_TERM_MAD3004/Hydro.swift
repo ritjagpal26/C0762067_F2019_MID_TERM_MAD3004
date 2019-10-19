@@ -9,5 +9,6 @@
 import Foundation
 class Hydro : Bill
 {
-    
+    var hydro_Bill_Id = String()
+    var agency_Name = String()
 }
