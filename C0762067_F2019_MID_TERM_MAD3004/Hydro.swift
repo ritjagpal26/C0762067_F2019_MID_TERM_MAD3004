@@ -14,6 +14,9 @@ class Hydro : Bill
     var consumption = Float()
     init(hbi : String, an : String, hba: Float, hc : Float,bid: Int,bammount: Float, bdate: Date, btype:bill_Type) {
         
-        
+        self.hydro_Bill_Id  = hbi
+        self.agency_Name = an
+        self.consumption = hc
+        super.init(bid: bid, bdate: Date(), bammount: bammount, btype: Bill.bill_Type.hydro)
     }
 }
