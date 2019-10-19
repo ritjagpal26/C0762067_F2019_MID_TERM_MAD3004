@@ -9,6 +9,9 @@
 import Foundation
 class Customer: Bill {
     var coustomer_Id = String()
-    
+    var coustomer_lastNme = String()
+    var coustomer_FirtsName = String()
+    var coustomer_EmailID = String()
+   
 
 }
