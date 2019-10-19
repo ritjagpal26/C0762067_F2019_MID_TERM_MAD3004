@@ -32,7 +32,7 @@ class  Bill: IDisplay {
         self.billType = btype
     }
     func printData() {
-        
+    
     }
     
 }
