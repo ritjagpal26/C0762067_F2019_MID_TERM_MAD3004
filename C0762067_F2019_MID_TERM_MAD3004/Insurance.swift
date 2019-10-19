@@ -14,4 +14,8 @@ class Insurance : Bill{
         case Bike
         case Home
     }
+    var startDate = String()
+    var endDate = String()
+    var totalAmountYearly = Float()
+     var type : insurance_Type
 }

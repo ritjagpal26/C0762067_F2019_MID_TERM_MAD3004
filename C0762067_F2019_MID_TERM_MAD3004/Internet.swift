@@ -20,7 +20,7 @@ class Internet:Bill {
     override func printData() {
          print(" Bill Type : Internet")
         print(" Internet Bill Id : \(internet_Bill_Id)")
-        print("Bill Date : \(bill_date)")
+        print("Bill Date : \(dateformater.putDate())")
         print("Name of Internet Provider : \(Provider_Name)")
         print("Internet Used    : \(internet_GB_used.dataused())")
         print("Bill Of internet : \(bill_Ammount.currency())")
