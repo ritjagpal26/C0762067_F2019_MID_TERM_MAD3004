@@ -8,7 +8,7 @@
 
 import Foundation
 
-var custDictionary = Dictionary<String,Customer>()
+var custDictionary = [String:Customer]()
 
 
 var int1 = Internet(ibillid: "In001", pname: "Roggers", internetused: 22.2, bid: 1, bammount: 25, bdate: "06/26/2019", btype: Bill.bill_Type.internet)
@@ -23,7 +23,7 @@ var customer1 = Customer(cid: "A1", lastname: "jagpal", firstname: "Ritik", emai
 var int2 = Internet(ibillid: "In002", pname: "Fiddo", internetused: 45.2, bid: 2, bammount: 58, bdate: "10/25/2019", btype: .internet)
 
 var hydro2 = Hydro(hBillId: "Hydro1002", agenceyname: "Energy Provider", hydroconsuption: 563.2, bid: 2, bammount: 256.2, bdate: "03/45/2019", btype: .hydro)
-custDictionary.updateValue(customer1 ,forKey: customer1.customer_Id)
+var customer2 = Customer(cid: "A2", lastname: "Patel", firstname: "Pritesh", email: "priteshpatel@gmail.com", billdict: [int2.internet_Bill_Id:int2,hydro2.hydro_Bill_Id:hydro2])
 
 
 for i in custDictionary.values
