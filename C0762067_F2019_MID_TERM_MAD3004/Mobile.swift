@@ -12,5 +12,6 @@ class Mobile: Bill {
     var mobile_Model_Name = String()
     var mobile_number = Int()
     var  internet_GB_used = Float()
-    
+    var minute_used = Float()
+    var mobile_Bill_Ammount = Float()
 }
