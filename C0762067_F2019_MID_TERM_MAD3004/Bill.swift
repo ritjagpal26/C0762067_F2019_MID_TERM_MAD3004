@@ -8,11 +8,9 @@
 
 import Foundation
 class  Bill: IDisplay {
-    func printData() {
-        
-    }
+    
     var bill_Id : Int
-    var bill_date : Date
+    var bill_date : String
         var bill_Ammount : Float
         enum bill_Type {
                     case internet
@@ -20,12 +18,21 @@ class  Bill: IDisplay {
                     case mobile
                     case Insurance
     }
+    var dateformater:Date
+    {
+        let dateformatter=DateFormatter()
+        dateformatter.dateFormat="MM/dd/yyyy"
+        return dateformatter.date(from: bill_date)!
+    }
      var billType : bill_Type
-    init(bid: Int, bdate: Date, bammount : Float, btype:bill_Type) {
+    init(bid: Int, bdate: String, bammount : Float, btype:bill_Type) {
         self.bill_Id = bid
         self.bill_date = bdate
         self.bill_Ammount = bammount
         self.billType = btype
+    }
+    func printData() {
+        
     }
     
 }

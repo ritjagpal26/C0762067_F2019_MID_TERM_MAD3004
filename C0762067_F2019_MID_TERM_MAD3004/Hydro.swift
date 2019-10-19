@@ -12,12 +12,12 @@ class Hydro : Bill
     var hydro_Bill_Id = String()
     var agency_Name = String()
     var consumption = Float()
-    init(hBillId : String, agenceyname : String,  hydroconsuption : Float,bid: Int,bammount: Float, bdate: Date, btype:bill_Type) {
+    init(hBillId : String, agenceyname : String,  hydroconsuption : Float,bid: Int,bammount: Float, bdate: String, btype:bill_Type) {
         
         self.hydro_Bill_Id  = hBillId
         self.agency_Name = agenceyname
         self.consumption = hydroconsuption
-        super.init(bid: bid, bdate: Date(), bammount: bammount, btype: Bill.bill_Type.hydro)
+        super.init(bid: bid, bdate: bdate, bammount: bammount, btype: Bill.bill_Type.hydro)
     }
     override func printData() {
         print("Hydro Bill Id \(hydro_Bill_Id)")
