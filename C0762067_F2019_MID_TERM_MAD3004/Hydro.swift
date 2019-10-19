@@ -19,4 +19,7 @@ class Hydro : Bill
         self.consumption = hydroconsuption
         super.init(bid: bid, bdate: Date(), bammount: bammount, btype: Bill.bill_Type.hydro)
     }
+    override func printData() {
+        print("Hydro Bill Id \(hydro_Bill_Id)")
+    }
 }
