@@ -12,4 +12,8 @@ class Hydro : Bill
     var hydro_Bill_Id = String()
     var agency_Name = String()
     var consumption = Float()
+    init(hbi : String, an : String, hba: Float, hc : Float,bid: Int,bammount: Float, bdate: Date, btype:bill_Type) {
+        
+        
+    }
 }
