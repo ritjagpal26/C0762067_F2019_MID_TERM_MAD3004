@@ -11,5 +11,5 @@ class Internet:Bill {
     var internet_Bill_Id = String()
     var Provider_Name = String()
     var internet_GB_used = Float()
-    var internet_Bill_ammount = Float()
+    
 }
