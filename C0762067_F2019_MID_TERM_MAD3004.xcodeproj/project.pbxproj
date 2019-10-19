@@ -15,6 +15,7 @@
 		9B42B6C0235BC2630088691D /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42B6BF235BC2630088691D /* Hydro.swift */; };
 		9B42B6C2235BC44D0088691D /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42B6C1235BC44D0088691D /* Customer.swift */; };
 		9B42B6C4235BC90C0088691D /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42B6C3235BC90C0088691D /* Units.swift */; };
+		9B42B6C6235BCB210088691D /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42B6C5235BCB210088691D /* DateFormat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		9B42B6BF235BC2630088691D /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9B42B6C1235BC44D0088691D /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		9B42B6C3235BC90C0088691D /* Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Units.swift; sourceTree = "<group>"; };
+		9B42B6C5235BCB210088691D /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				9B42B6B7235BBB3E0088691D /* Bill.swift */,
 				9B42B6BB235BBD0F0088691D /* Internet.swift */,
 				9B42B6C1235BC44D0088691D /* Customer.swift */,
+				9B42B6C5235BCB210088691D /* DateFormat.swift */,
 			);
 			path = C0762067_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				9B42B6BC235BBD100088691D /* Internet.swift in Sources */,
 				9B42B6C0235BC2630088691D /* Hydro.swift in Sources */,
 				9B42B6BA235BBB9B0088691D /* IDisplay.swift in Sources */,
+				9B42B6C6235BCB210088691D /* DateFormat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
