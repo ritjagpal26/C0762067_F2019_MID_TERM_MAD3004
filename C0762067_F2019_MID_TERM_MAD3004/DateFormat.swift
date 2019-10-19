@@ -11,7 +11,9 @@ extension Date{
     
     func insertDate()-> String
     {
-        
+        let dateformatter = DateFormatter()
+        dateformatter.dateFormat = "EEEE, MMMM dd, YYYY"
+        return dateformatter.string(from: self)
         
         
     }
