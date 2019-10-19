@@ -25,6 +25,17 @@ class Customer:IDisplay {
         self.customer_EmailID = email
         self.billdict = billdict
     }
+    func calculateBillAmmount() -> Float
+    {
+        var Total: Float = 0.0
+        
+        for j in billdict.values
+        {
+            Total += j.bill_Ammount
+        
+        }
+        return Total
+    }
     func printData() {
         print("Customer Id  : \(customer_Id)")
         print("Customer Name  : \(customer_FirtsName) \(customer_lastNme)")
@@ -32,9 +43,11 @@ class Customer:IDisplay {
         print("****************************************")
         for i in billdict.values
         {
-            print("****************************************")
             i.printData()
         }
+        
+        print("Total Bill Ammount to Pay : \(calculateBillAmmount().currency())")
+        print("**********************************************")
         
     }
 }
