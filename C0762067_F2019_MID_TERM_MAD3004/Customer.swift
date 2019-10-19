@@ -12,6 +12,7 @@ class Customer: Bill {
     var coustomer_lastNme = String()
     var coustomer_FirtsName = String()
     var coustomer_EmailID = String()
-   
+    var  billdict = [String:Bill]()
+
 
 }
