@@ -11,10 +11,10 @@ class Internet:Bill {
     var internet_Bill_Id = String()
     var Provider_Name = String()
     var internet_GB_used = Float()
-    init(ibp: String,pname: String, internetused: Float ,bid: Int, bdate: Date, btype:bill_Type) {
+    init(ibp: String,pname: String, internetused: Float ,bid: Int,bammount: Float, bdate: Date, btype:bill_Type) {
         self.internet_Bill_Id = ibp
         self.Provider_Name = pname
         self.internet_GB_used = internetused
-        
+        super.init(bid: bid, bdate: bdate, bammount: bammount,type: btype)
     }
 }
