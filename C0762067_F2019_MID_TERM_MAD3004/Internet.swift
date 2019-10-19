@@ -18,6 +18,7 @@ class Internet:Bill {
         super.init(bid: bid, bdate: bdate, bammount: bammount,btype: btype)
     }
     override func printData() {
+         print(" Bill Type : Internet")
         print(" Internet Bill Id : \(internet_Bill_Id)")
         print("Bill Date : \(bill_date)")
         print("Name of Internet Provider : \(Provider_Name)")

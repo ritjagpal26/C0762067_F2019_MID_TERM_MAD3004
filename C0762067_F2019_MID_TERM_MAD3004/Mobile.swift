@@ -22,6 +22,7 @@ class Mobile: Bill {
         super.init(bid:bid, bdate: bdate, bammount: bammount,  btype: btype)
     }
     override func printData() {
+         print(" Bill Type : Mobile")
         print(" Mobile Bill Id : \(mobile_Bill_Id)")
         print("Modle of Mobile  : \(mobile_Model_Name)")
         print("Mobile Number \(mobile_number)")
@@ -29,7 +30,7 @@ class Mobile: Bill {
        
         print("Minutes used  : \(minute_used)")
          print("Bill Of Mobile : \(bill_Ammount.currency())")
-      
+       print("****************************************")
         
         
     }

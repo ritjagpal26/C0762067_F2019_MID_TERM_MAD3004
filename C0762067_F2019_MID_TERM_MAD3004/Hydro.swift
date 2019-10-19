@@ -20,9 +20,11 @@ class Hydro : Bill
         super.init(bid: bid, bdate: bdate, bammount: bammount, btype: Bill.bill_Type.hydro)
     }
     override func printData() {
+         print(" Bill Type : Hydro")
         print("Hydro Bill Id \(hydro_Bill_Id)")
         print("Name of agency : \(agency_Name)")
         print("HYDRO Used    : \(consumption.units())")
         print("Bill Of Hydro : \(bill_Ammount.currency())")
+        print("****************************************")
     }
 }
