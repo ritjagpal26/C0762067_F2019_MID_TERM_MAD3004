@@ -26,7 +26,7 @@ var hydro2 = Hydro(hBillId: "Hydro1002", agenceyname: "Energy Provider", hydroco
 var customer2 = Customer(cid: "A2", lastname: "Patel", firstname: "Pritesh", email: "priteshpatel@gmail.com", billdict: [int2.internet_Bill_Id:int2,hydro2.hydro_Bill_Id:hydro2])
 
 custDictionary.updateValue(customer1 ,forKey: customer1.customer_Id)
-
+custDictionary.updateValue(customer2, forKey: customer2.customer_Id)
 for i in custDictionary.values
 {
     i.printData()
