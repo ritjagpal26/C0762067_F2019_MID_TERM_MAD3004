@@ -21,4 +21,11 @@ class Mobile: Bill {
         self.internet_GB_used = Gbused
         super.init(bid:bid, bdate: bdate, bammount: bammount,  btype: btype)
     }
+    override func printData() {
+        print(" Mobile Bill Id : \(mobile_Bill_Id)")
+        print("Modle of Mobile  : \(mobile_Model_Name)")
+      
+        
+        
+    }
 }
