@@ -8,5 +8,6 @@
 
 import Foundation
 
-print("Hello, World!")
+var i = Internet(ibillid: "In001", pname: "Roggers", internetused: 22.2, bid: 1, bammount: 25, bdate: Date(), btype: Bill.bill_Type.internet)
 
+ i.printData()
