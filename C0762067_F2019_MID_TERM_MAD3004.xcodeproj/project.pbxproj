@@ -10,6 +10,7 @@
 		9B42B6B1235BBA610088691D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42B6B0235BBA610088691D /* main.swift */; };
 		9B42B6B8235BBB3E0088691D /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42B6B7235BBB3E0088691D /* Bill.swift */; };
 		9B42B6BA235BBB9B0088691D /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42B6B9235BBB9B0088691D /* IDisplay.swift */; };
+		9B42B6BC235BBD100088691D /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42B6BB235BBD0F0088691D /* Internet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		9B42B6B0235BBA610088691D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B42B6B7235BBB3E0088691D /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		9B42B6B9235BBB9B0088691D /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		9B42B6BB235BBD0F0088691D /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				9B42B6B0235BBA610088691D /* main.swift */,
 				9B42B6B9235BBB9B0088691D /* IDisplay.swift */,
 				9B42B6B7235BBB3E0088691D /* Bill.swift */,
+				9B42B6BB235BBD0F0088691D /* Internet.swift */,
 			);
 			path = C0762067_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				9B42B6B8235BBB3E0088691D /* Bill.swift in Sources */,
 				9B42B6B1235BBA610088691D /* main.swift in Sources */,
+				9B42B6BC235BBD100088691D /* Internet.swift in Sources */,
 				9B42B6BA235BBB9B0088691D /* IDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
