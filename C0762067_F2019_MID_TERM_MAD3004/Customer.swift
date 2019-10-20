@@ -53,6 +53,12 @@ class Customer:IDisplay {
         print("Customer Name  : \(customer_FirtsName) \(customer_lastNme)")
         print("Customer Email Id : \(customer_EmailID)")
           print("-------------------------Bill Information---------------------------")
+        if billdict.count == 0
+        {
+            print("Customer has no outstanding Bills")
+        }
+        else{
+            
         for i in billdict.values
         {
             i.printData()
@@ -60,6 +66,6 @@ class Customer:IDisplay {
         
         print("Total Bill Ammount to Pay : \(calculateBillAmmount().currency())")
         print("#                                        #")
-        
+        }
     }
 }
