@@ -31,7 +31,7 @@ var customer3 = Customer(cid: "A3", lastname: "ram", firstname: "parta", email: 
 
 var customer4 = Customer(cid: "A4", lastname: "rahul", firstname: "gupta", email: "guptarahul@gmail.com")
 
-var a = 0
+
 custDictionary.updateValue(customer1 ,forKey: customer1.customer_Id)
 custDictionary.updateValue(customer2, forKey: customer2.customer_Id)
 custDictionary.updateValue(customer3, forKey: customer3.customer_Id)
