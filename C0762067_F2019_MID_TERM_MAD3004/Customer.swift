@@ -37,6 +37,12 @@ class Customer:IDisplay {
         self.customer_EmailID = email
         self.billdict = billdict
     }
+    init(cid: String, lastname : String, firstname : String, email: String) {
+        self.customer_Id = cid
+        self.customer_lastNme = lastname
+        self.customer_FirtsName = firstname
+        self.customer_EmailID = email
+    }
     func calculateBillAmmount() -> Float
     {
         var Total: Float = 0.0

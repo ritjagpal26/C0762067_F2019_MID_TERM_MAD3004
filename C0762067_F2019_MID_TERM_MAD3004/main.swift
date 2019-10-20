@@ -29,9 +29,13 @@ var customer2 = Customer(cid: "A2", lastname: "Patel", firstname: "Pritesh", ema
 var insu1 = Insurance(iid: "f225", ip: "Bharata", itype: .car, sdate: "07/15/2018", edate: "02/23/2020", tmy: 25683.22, bid: 3, bammount: 256, bdate: "10/20/2019", btype: .Insurance)
 var customer3 = Customer(cid: "A3", lastname: "ram", firstname: "parta", email: "partapram@gmail.com", billdict: [insu1.insurance_id:insu1])
 
+var customer4 = Customer(cid: "A4", lastname: "rahul", firstname: "gupta", email: "guptarahul@gmail.com")
+
+
 custDictionary.updateValue(customer1 ,forKey: customer1.customer_Id)
 custDictionary.updateValue(customer2, forKey: customer2.customer_Id)
 custDictionary.updateValue(customer3, forKey: customer3.customer_Id)
+custDictionary.updateValue(customer4, forKey: customer4.customer_Id)
 for i in custDictionary.values
 {
     i.printData()

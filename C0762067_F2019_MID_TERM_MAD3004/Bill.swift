@@ -9,7 +9,7 @@
 import Foundation
 class  Bill: IDisplay {
     
-    var bill_Id : Int
+    var bill_Id : Int?
     var bill_date : String
         var bill_Ammount : Float
         enum bill_Type {
