@@ -14,6 +14,18 @@ class Customer:IDisplay {
     var customer_FirtsName = String()
     var customer_EmailID = String()
     var  billdict = [String:Bill]()
+    
+//    func checkEmail(email: String)
+//    {
+//        if email.contains("@yahoo.com")
+//        {
+//            print("yes")
+//        }
+//        else{
+//            print("Please inpu valid email")
+//        }
+//    }
+    
 //    var a = Bool("@Hotmail.com","@gmail.com")
 
     init(cid: String, lastname : String, firstname : String, email: String, billdict: [String:Bill])

@@ -79,20 +79,52 @@
 		9B42B6AF235BBA610088691D /* C0762067_F2019_MID_TERM_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
-				9B42B6B0235BBA610088691D /* main.swift */,
-				9B42B6BD235BBF6B0088691D /* Mobile.swift */,
-				9B42B6C3235BC90C0088691D /* Units.swift */,
-				9B42B6CB235BD50F0088691D /* Insurance.swift */,
-				9B42B6BF235BC2630088691D /* Hydro.swift */,
-				9B42B6B9235BBB9B0088691D /* IDisplay.swift */,
-				9B42B6B7235BBB3E0088691D /* Bill.swift */,
-				9B42B6BB235BBD0F0088691D /* Internet.swift */,
 				9B42B6C1235BC44D0088691D /* Customer.swift */,
-				9B42B6C5235BCB210088691D /* DateFormat.swift */,
-				9B42B6C7235BCDBA0088691D /* Currency.swift */,
-				9B42B6C9235BCE110088691D /* Gb.swift */,
+				9B42B6B0235BBA610088691D /* main.swift */,
+				9B42B6D2235BDB750088691D /* protocol */,
+				9B42B6D1235BDB4B0088691D /* extension */,
 			);
 			path = C0762067_F2019_MID_TERM_MAD3004;
+			sourceTree = "<group>";
+		};
+		9B42B6CF235BDB260088691D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9B42B6B7235BBB3E0088691D /* Bill.swift */,
+				9B42B6D0235BDB2A0088691D /* Bills */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		9B42B6D0235BDB2A0088691D /* Bills */ = {
+			isa = PBXGroup;
+			children = (
+				9B42B6BD235BBF6B0088691D /* Mobile.swift */,
+				9B42B6CB235BD50F0088691D /* Insurance.swift */,
+				9B42B6BB235BBD0F0088691D /* Internet.swift */,
+				9B42B6BF235BC2630088691D /* Hydro.swift */,
+			);
+			path = Bills;
+			sourceTree = "<group>";
+		};
+		9B42B6D1235BDB4B0088691D /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				9B42B6C9235BCE110088691D /* Gb.swift */,
+				9B42B6C3235BC90C0088691D /* Units.swift */,
+				9B42B6C7235BCDBA0088691D /* Currency.swift */,
+				9B42B6C5235BCB210088691D /* DateFormat.swift */,
+				9B42B6CF235BDB260088691D /* New Group */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		9B42B6D2235BDB750088691D /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9B42B6B9235BBB9B0088691D /* IDisplay.swift */,
+			);
+			path = protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
