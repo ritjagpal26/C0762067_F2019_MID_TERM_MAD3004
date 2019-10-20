@@ -52,7 +52,7 @@ class Customer:IDisplay {
         print("Customer Id  : \(customer_Id)")
         print("Customer Name  : \(customer_FirtsName) \(customer_lastNme)")
         print("Customer Email Id : \(customer_EmailID)")
-        print("****************************************")
+          print("-------------------------Bill Information---------------------------")
         for i in billdict.values
         {
             i.printData()
