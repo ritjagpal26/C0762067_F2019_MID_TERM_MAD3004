@@ -61,7 +61,7 @@ class Customer:IDisplay {
           print("-------------------------Bill Information---------------------------")
         if billdict.count == 0
         {
-            print("Customer has no outstanding Bills")
+            print("This Customer has no OutStanding Bill  to pay")
         }
         else{
             
