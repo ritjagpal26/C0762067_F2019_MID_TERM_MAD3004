@@ -59,7 +59,7 @@ class Customer:IDisplay {
         }
         
         print("Total Bill Ammount to Pay : \(calculateBillAmmount().currency())")
-        print("**********************************************")
+        print("#                                        #")
         
     }
 }
